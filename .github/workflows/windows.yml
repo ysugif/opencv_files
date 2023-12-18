@@ -3,7 +3,11 @@ name: Windows Server 2022
 on:
   pull_request:
     types: [synchronize, opened]
-
+  push:
+    branches:
+      - dev
+    paths-ignore:
+      - '*.md'
 env:
   OPENCV_VERSION: 4.8.0
 
