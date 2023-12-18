@@ -1,5 +1,3 @@
-// modified to launch gha build
-// modified to launch gha build
 function BuildForUWP($platform, $vcpkgPath, $runMsbuild) {
 
     #$ErrorActionPreference = "Stop"
